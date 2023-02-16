@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
 </head>
 <body>
@@ -18,7 +20,7 @@
         <option value="">London</option>
     
     </select>
-<div class="main">
+<div class="main" id="austin">
     <div class="city">
         <h2>Austin 🇺🇸</h2>
         <div class="time">3:21:15 <small>pm</small></div>
@@ -28,23 +30,23 @@
     <div class="date">February 14, 2023</div>
 </div>
 
-<div class="main">
+<div class="main" id="losAngeles">
     <div class="city">
         <h2>Los Angeles 🇺🇸</h2>
-        <div class="time">3:21:15 <small>pm</small></div>
+        <div class="timeTwo">3:21:15 <small>pm</small></div>
        
     </div>
     
-    <div class="date">February 14, 2023</div>
+    <div class="dateTwo">February 14, 2023</div>
 </div>
 
-<div class="main">
+<div class="main" id="newYork">
     <div class="city">
         <h2>New York 🇺🇸</h2>
-        <div class="time">3:21:15 <small>pm</small></div>
+        <div class="timeThree">3:21:15 <small>pm</small></div>
     </div>
    
-    <div class="date">February 14, 2023</div>
+    <div class="dateThree">February 14, 2023</div>
 </div>
    
 

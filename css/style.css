@@ -30,7 +30,26 @@ body {
     font-size: 36px;
     font-weight: bold;
 }
+.timeTwo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
 .time small {
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 36px;
+}
+.timeTwo small {
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 36px;
+}
+.timeThree {
+    font-size: 36px;
+    font-weight: bold;
+}
+.timeThree small {
     font-size: 18px;
     vertical-align: middle;
     line-height: 36px;
@@ -39,12 +58,19 @@ body {
     opacity: 0.7;
     
 }
-.date:last-child {
-    border: none;
+.dateTwo {
+    opacity: 0.7;
 }
+.dateThree {
+    opacity: 0.7;
+}
+
 .main {
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     padding-bottom: 25px;
+}
+.main:last-child {
+    border-bottom: none;
 }
 select {
     display: block;
